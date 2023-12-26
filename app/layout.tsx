@@ -17,8 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='overflow-x-hidden scroll-smooth'>
-      <Navbar />
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }

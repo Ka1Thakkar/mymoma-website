@@ -36,7 +36,7 @@ const OurImpact = () => {
                     <div className="flex flex-col gap-10 sm:grid sm:grid-cols-3 lg:flex lg:flex-col">
                         {impacts.map((data,i)=>{
                             return (
-                                <div className="flex flex-col lg:flex-row items-center gap-5 bg-bglightpurple rounded-tl-[35px] p-5 shadow-lg shadow-black/20">
+                                <div key={i} className="flex flex-col lg:flex-row items-center gap-5 bg-bglightpurple rounded-tl-[35px] p-5 shadow-lg shadow-black/20">
                                     <h1 className="2xl:text-[65px] xl:text-[60px] lg:text-[50px] md:text-[47px] text-[40px] font-semibold text-bgpurple">{data.quantity}</h1>
                                     <p className="2xl:text-[25px] xl:text-[23px] lg:text-[19px] md:text-[18px] text-[15px] text-center lg:text-left">{data.description}</p>
                                 </div>

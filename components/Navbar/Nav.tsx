@@ -39,18 +39,26 @@ const Navbar = () => {
     const logoRef = useRef(null)
     const menuRef = useRef(null)
     const [isHam, setIsHam] = useState(false)
+    
 
     useEffect(()=>{
         (function () {
             var width = window.innerWidth;
+            const pathname = window.location.pathname
+            
 
             if (window.innerWidth <= 750) {
                 setIsHam(false)
             } else {
                 setIsHam(true)
             }
+
+            if (window.location.pathname !== pathname){
+                window.location.reload()
+            }
         
             window.addEventListener('resize', function () {
+                window.location.reload()
                 if (window.innerWidth <= 750) {
                     setIsHam(false)
                 }else {
@@ -93,7 +101,7 @@ const Navbar = () => {
                     })}
                 </div>) : (
                     <AnimatePresence mode="wait">
-                        {isActive && <Menu />}
+                        {isActive && <Menu isActive={isActive} setIsActive={setIsActive} />}
                     </AnimatePresence>
                 )
             }

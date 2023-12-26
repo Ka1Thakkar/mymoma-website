@@ -82,8 +82,8 @@ const OurServices = () => {
                 <div className='flex justify-start gap-2 lg:gap-10 overflow-x-auto pr-20 py-10'>
                     {services.map((data, i)=>{
                         return (
-                            <div className="p-1 bg-gradient-to-tl from-[#653A8D] to-[#ECB4FE] rounded-[20px]">
-                                <div key={i} className='text-black bg-bglightpurple p-5 lg:p-10 flex flex-col items-center gap-5 lg:gap-10 h-full rounded-[20px]'>
+                            <div key={i} className="p-1 bg-gradient-to-tl from-[#653A8D] to-[#ECB4FE] rounded-[20px]">
+                                <div className='text-black bg-bglightpurple p-5 lg:p-10 flex flex-col items-center gap-5 lg:gap-10 h-full rounded-[20px]'>
                                     <div className="h-1/2">
                                         <Image src={data.image} alt="service image" className="h-[100%] object-contain" />
                                     </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss';
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
@@ -45,7 +45,7 @@ const contact = [
   },
 ]
 
-export default function Menu () {
+export default function Menu ({isActive, setIsActive}) {
 
   const pathname = usePathname();
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
@@ -63,11 +63,13 @@ export default function Menu () {
                     {
                       navItems.map( (data, index) => {
                         return(
-                          <div className='flex gap-10 items-center'>
+                          <div key={index} className='flex gap-10 items-center'>
                             <Link 
                             key={index} 
                             data={{...data, index}} 
-                            isActive={selectedIndicator == data.href} 
+                            isActive={selectedIndicator == data.href}
+                            isHamActive={isActive}
+                            setIsHamActive={setIsActive} 
                             setSelectedIndicator={setSelectedIndicator}>
                             </Link>
                           </div>
@@ -79,7 +81,7 @@ export default function Menu () {
               <h1 className='text-[24px] font-medium'>Contact Us On:</h1>
               {contact.map((data ,i) => {
                 return (
-                    <div>
+                    <div key={i}>
                       <a href={data.href} target='_blank' className='text-4xl'>
                         <data.icon />
                       </a>

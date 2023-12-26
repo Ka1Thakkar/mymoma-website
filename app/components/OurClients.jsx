@@ -47,7 +47,7 @@ const OurClients = () => {
                     <div className='grid grid-cols-3 lg:grid-cols-4 items-center justify-center lg:gap-x-5 lg:gap-y-10 gap-x-2 gap-y-5'>
                         {clients.map((data , i) => {
                             return (
-                                <div className='flex items-center w-full justify-center'>
+                                <div key={i} className='flex items-center w-full justify-center'>
                                     <Image src={data.logo} alt='company logo' />
                                 </div>
                             )

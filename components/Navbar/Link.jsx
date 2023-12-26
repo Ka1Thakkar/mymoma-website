@@ -2,8 +2,9 @@ import styles from './styles.module.scss';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { slide, scale } from './anim';
+import { useEffect } from 'react';
 
-export default function index({data, isActive, setSelectedIndicator}) {
+export default function index({data, isActive, setSelectedIndicator, isHamActive, setIsHamActive}) {
   
     const { title, href, index} = data;
   

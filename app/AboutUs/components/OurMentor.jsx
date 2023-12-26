@@ -16,10 +16,10 @@ const OurMentors = () => {
                 {mentors.map((data, i)=>{
                     return (
                         <div key={i} className=' group relative'>
-                            <div className='bg-bgpurple/80 absolute h-0 w-[100%] group-hover:opacity-100 opacity-0 transition-all ease-in-out flex flex-col items-center justify-center text-bgwhite p-2 group-hover:h-full duration-500 bottom-0 delay-75 gap-2'>
-                                <h1 className='lg:text-[26px] text-[25px] font-semibold text-center'>{data.name}</h1>
-                                <h1 className='lg:text-[26px] text-[25px] text-center'>{data.position}</h1>
-                                <h1 className='lg:text-[18px] text-[15px] text-center'>{data.College}</h1>
+                            <div className='bg-mentorpink/80 text-black absolute h-0 w-[100%] group-hover:opacity-100 opacity-0 transition-all ease-in-out flex flex-col items-center justify-center p-2 group-hover:h-full duration-500 bottom-0 delay-75 gap-2'>
+                                <h1 className='lg:text-[25px] text-[24px] font-semibold text-center'>{data.name}</h1>
+                                <h1 className='lg:text-[23px] text-[22px] text-center'>{data.position}</h1>
+                                <h1 className='lg:text-[18px] text-[15px] text-center'>{data.achievements}</h1>
                             </div>
                             <Image src={data.image} alt={data.name + "'s photo"} />
                         </div>

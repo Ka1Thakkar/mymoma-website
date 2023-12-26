@@ -17,7 +17,8 @@ const config: Config = {
         bgpurple : '#7556FB',
         bgwhite: '#FFFDF1',
         bglightpurple:"#F4EBFE",
-        bgpink: "#CFC3F5"
+        bgpink: "#CFC3F5",
+        mentorpink: '#ECB4FE'
       }
     },
   },
