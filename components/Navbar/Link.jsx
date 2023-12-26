@@ -11,7 +11,8 @@ export default function index({data, isActive, setSelectedIndicator, isHamActive
     return (
       <motion.div 
         className={styles.link} 
-        onMouseEnter={() => {setSelectedIndicator(href)}} 
+        onMouseEnter={() => {setSelectedIndicator(href)}}
+        onClick={()=>{setTimeout(()=>{setIsHamActive(!isHamActive)},750)}}
         custom={index} 
         variants={slide} 
         initial="initial" 
