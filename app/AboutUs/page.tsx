@@ -7,12 +7,6 @@ import OurMentors from './components/OurMentor';
 import { useEffect } from "react";
 
 const About = () => {
-    const pathname = location.pathname
-    useEffect(() => {
-        if(location.pathname !== pathname && window.innerWidth < 750) {
-            location.reload()
-        }
-    })
     return (
         <section className="bg-bgwhite">
             <OurVision />

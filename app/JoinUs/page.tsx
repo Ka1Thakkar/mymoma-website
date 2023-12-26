@@ -6,12 +6,6 @@ import Openings from './components/Openings'
 import { useEffect } from "react";
 
 const JoinUs = () => {
-    const pathname = location.pathname
-    useEffect(() => {
-        if(location.pathname !== pathname && window.innerWidth < 750) {
-            location.reload()
-        }
-    })
     return (
         <section className="bg-bgwhite">
             <Hero />

@@ -6,12 +6,6 @@ import Testimonials from './components/Testimonials'
 import { useEffect } from 'react';
 
 const OurProjects = () => {
-    const pathname = location.pathname
-    useEffect(() => {
-        if(location.pathname !== pathname && window.innerWidth < 750) {
-            location.reload()
-        }
-    })
     return (
         <section>
             <ImpactModel />
