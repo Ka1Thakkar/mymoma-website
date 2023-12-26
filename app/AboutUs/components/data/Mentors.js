@@ -9,6 +9,12 @@ import Pranjal from '@/app/AboutUs/Assets/Mentors/Pranjal Jain.png'
 
 const mentors = [
     {
+        name: "Tvisha Tuli",
+        position : "Socho Abhi, MyMoMa and Candy Bar (Founder)",
+        achievements: "Ex- Bain & Company.",
+        image: Tvisha,
+    },
+    {
         name: "Pooja Pasari",
         position : "Senior Associate BCG",
         achievements: "CA Finalist",
@@ -43,12 +49,6 @@ const mentors = [
         position : "Ex- McKinsey, P&G and ZS Consulting",
         achievements: "IIM C'24 SRCC",
         image: Shubham,
-    },
-    {
-        name: "Tvisha Tuli",
-        position : "Socho Abhi, MyMoMa and Candy Bar (Founder)",
-        achievements: "Ex- Bain & Company.",
-        image: Tvisha,
     },
     {
         name: "Pranjal Jain",
