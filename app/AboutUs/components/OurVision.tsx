@@ -24,7 +24,7 @@ const OurVision = () => {
                             </div> */}
                             <div className='w-[10px] bg-bgpurple rounded-tl-lg rounded-bl-lg'></div>
                             <div className='bg-bgpurple/30 px-5 w-full rounded-tr-lg rounded-br-lg'>
-                                <p className='lg:text-[18px] text-[15px] py-5 lg:py-10 lg:text-justify lg:pr-10'>
+                                <p className='lg:text-[18px] text-[15px] py-5 lg:py-10 lg:text-left lg:pr-10'>
                                 <span className='font-bold italic'>Our vision is a world where every woman and member of the LGBTQIA+ community stands as a fearless entrepreneur, </span>
                                 their unique brilliance ignited, and their dreams amplified. 
                                 We envision breaking down all barriers to success, fostering a global network of empowered individuals, and creating a landscape where diversity and innovation flourish
