@@ -10,6 +10,7 @@ import Diligence from '../assets/services/Diligence.png'
 import Assistance from '../assets/services/Digital Assistance.png'
 import chart from '../assets/Chart.png'
 import { IoIosArrowForward } from "react-icons/io";
+import { useEffect } from "react";
 
 const services = [
     {
@@ -51,6 +52,15 @@ const services = [
 ]
 
 const OurServices = () => {
+
+    let scroll = () => {};
+
+    useEffect(()=>{
+        scroll = () => {
+            serviceMenu.scrollLeft += 350
+        }
+        const serviceMenu = document.querySelector('#services')
+    })
     return (
         <div className="bg-bgwhite mt-[-1px]">
         <div className=" h-fit bg-bgpurple rounded-t-[35px] py-20 px-5 lg:px-20 2xl:px-40 relative text-bgwhite">
@@ -76,24 +86,24 @@ const OurServices = () => {
                     </div>
                 </div>
                 <div className='lg:w-7/12 relative'>
-                <div className=" absolute w-[40%] mr-[-2px] lg:w-[10vw] right-0 bg-gradient-to-r from-bgpurple/0 to-bgpurple via-bgpurple/70 h-full flex items-center justify-end text-5xl">
-                    <IoIosArrowForward />
-                </div>
-                <div className='flex justify-start gap-2 lg:gap-10 overflow-x-auto pr-20 py-10'>
-                    {services.map((data, i)=>{
-                        return (
-                            <div key={i} className="p-1 bg-gradient-to-tl from-[#653A8D] to-[#ECB4FE] rounded-[20px]">
-                                <div className='text-black bg-bglightpurple p-5 lg:p-10 flex flex-col items-center gap-5 lg:gap-10 h-full rounded-[20px]'>
-                                    <div className="h-1/2">
-                                        <Image src={data.image} alt="service image" className="h-[100%] object-contain" />
+                    <button onClick={()=>{scroll()}} className=" absolute w-[25vw] mr-[-2px] lg:w-[7.5vw] right-0 bg-gradient-to-r from-bgpurple/0 to-bgpurple via-bgpurple/80 h-full flex items-center justify-end text-5xl">
+                        <IoIosArrowForward />
+                    </button>
+                    <div id="services" className='flex justify-start gap-2 lg:gap-10 overflow-x-auto pr-32 py-10 scroll-smooth'>
+                        {services.map((data, i)=>{
+                            return (
+                                <div key={i} className="p-1 bg-gradient-to-tl from-[#653A8D] to-[#ECB4FE] rounded-[20px]">
+                                    <div className='text-black bg-bglightpurple p-5 lg:p-10 flex flex-col items-center gap-5 lg:gap-10 h-full rounded-[20px]'>
+                                        <div className="h-1/2">
+                                            <Image src={data.image} alt="service image" className="h-[100%] object-contain" />
+                                        </div>
+                                        <h1 className="lg:w-[250px] w-[100px] text-center font-semibold lg:text-[29px] text-[15px]">{data.position}</h1>
                                     </div>
-                                    <h1 className="lg:w-[250px] w-[100px] text-center font-semibold lg:text-[29px] text-[15px]">{data.position}</h1>
                                 </div>
-                            </div>
-                            )
-                        })}
+                                )
+                            })}
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
         </div>
