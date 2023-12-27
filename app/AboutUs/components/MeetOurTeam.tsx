@@ -18,7 +18,7 @@ const MeetOurTeam = () => {
                     <span className='font-medium'>YOUR Moment of Makeover</span>
                     </p>
                 </div>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 lg:pt-40 pt-10 gap-x-5 gap-y-5'>
+                <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 lg:pt-40 pt-10 gap-x-5 gap-y-5'>
                     {team.map((data, i)=>{
                         return (
                             <div key={i} className=' group relative'>

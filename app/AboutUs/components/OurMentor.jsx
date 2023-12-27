@@ -12,7 +12,7 @@ const OurMentors = () => {
                 <h1 className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Advisors</h1>
                 <div className='h-[3px] w-[50%] bg-bgpurple'></div>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 pt-20 gap-x-5 gap-y-5'>
+            <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 pt-20 gap-x-5 gap-y-5'>
                 {mentors.map((data, i)=>{
                     return (
                         <div key={i} className=' group relative overflow-hidden'>
