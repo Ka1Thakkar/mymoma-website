@@ -59,10 +59,11 @@ const Navbar = () => {
             }
         
             window.addEventListener('resize', function () {
-                window.location.reload()
                 if (window.innerWidth <= 750) {
+                    window.location.reload()
                     setIsHam(false)
                 }else {
+                    window.location.reload()
                     setIsHam(true)
                 }
             });
