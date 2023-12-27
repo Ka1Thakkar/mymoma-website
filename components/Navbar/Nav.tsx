@@ -8,6 +8,7 @@ import Menu from "./Hambruger";
 import { Holtwood_One_SC } from "next/font/google";
 import logo from '@/Assets/Images/White 1.png'
 import Link from "next/link";
+import {motion} from 'framer-motion'
 
 const holt = Holtwood_One_SC({weight:["400"], subsets:["latin"]})
 
@@ -76,9 +77,13 @@ const Navbar = () => {
 
     return (
         <nav className=" flex justify-between items-center pr-5 lg:px-10 fixed top-0 py-3 md:py-2 z-5 bg-[#7556FB] w-screen overflow-x-hidden z-50" ref={menuRef}>
-            <div className={holt.className} ref={logoRef}>
+            <motion.div
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:0.3,ease:'easeInOut'}}
+            className={holt.className} ref={logoRef}>
                 <Image src={logo} alt="mymoma-logo" className="lg:h-[75px] h-[60px] object-contain"/>
-            </div>
+            </motion.div>
             {!isHam && 
                 <div id="hamburger" onClick={() => setIsActive(!isActive)} className={styles.button} ref={logoRef}>
                     <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
@@ -91,12 +96,17 @@ const Navbar = () => {
             {isHam ?
                 (<div className="flex gap-5 lg:gap-10 text-base lg:text-xl font-semibold text-white">
                     {navItems.map((data,i) => {
+                        const delay = (i*0.2 + 0.2)
                         return (
-                            <div key={i}>
+                            <motion.div
+                            initial={{opacity:0, x:10}}
+                            animate={{opacity:1, x:0}}
+                            transition={{duration:0.3, delay: delay, ease:'easeInOut'}}
+                            key={i}>
                                 <Link href={data.href}>
                                     <h1>{data.title}</h1>
                                 </Link>
-                            </div>
+                            </motion.div>
                         )
                     })}
                 </div>) : (

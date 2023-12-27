@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Expansion from '../assets/services/Expansion.png'
 import Research from '../assets/services/Research.png'
@@ -11,6 +12,7 @@ import Assistance from '../assets/services/Digital Assistance.png'
 import chart from '../assets/Chart.png'
 import { IoIosArrowForward } from "react-icons/io";
 import { useEffect } from "react";
+import {motion} from 'framer-motion'
 
 const services = [
     {
@@ -63,29 +65,52 @@ const OurServices = () => {
     })
     return (
         <div className="bg-bgwhite mt-[-1px]">
-        <div className=" h-fit bg-bgpurple rounded-t-[35px] py-20 px-5 lg:px-20 2xl:px-40 relative text-bgwhite">
+        <div className=" h-fit bg-bgpurple rounded-t-[35px] py-40 px-5 lg:px-20 2xl:px-40 relative text-bgwhite">
             <div className="pb-20 z-10">
-                <p className="lg:text-[18px] text-[15px]">Your Problems</p>
-                <h1 className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Services</h1>
-                <div className="w-[30vw] h-[3px] bg-bgwhite"></div>
+                <motion.p 
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
+                className="lg:text-[18px] text-[15px]">Your Problems</motion.p>
+                <motion.h1 
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
+                className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Services</motion.h1>
+                <motion.div 
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
+                className="w-[30vw] h-[3px] bg-bgwhite"></motion.div>
             </div>
             <div className="flex flex-col lg:flex-row gap-20">
                 <div className="lg:w-5/12 flex flex-col gap-20">
-                    <div className="w-fit flex items-center gap-5">
+                    <motion.div 
+                    initial={{opacity:0}}
+                    whileInView={{opacity:1}}
+                    transition={{duration:0.5, delay:0.7, ease:'easeInOut'}}
+                    className="w-fit flex items-center gap-5">
                         <div className="items-center justify-center flex text-[47px] font-semibold w-5/12 h-full">
                             <Image alt="chart" src={chart} className="h-fit object-contain" />
                         </div>
                         <div className="w-4/12 text-[15px] lg:text-[18px]">
                             Only 13% of WLGBTQIA+ entrepreneurs have the access to business resources
                         </div>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div
+                    initial={{opacity:0}}
+                    whileInView={{opacity:1}}
+                    transition={{duration:0.5, delay:0.8, ease:'easeInOut'}}>
                         <p className="lg:text-[18px] text-[15px]">
                         We aim to bridge this gap by providing businesses with a “makeover” i.e. <span className="font-semibold">diverse, innovative, holistic and affordable business consultancy</span> to improve their performance and implement changes that optimize their process in order to achieve success.
                         </p>
-                    </div>
+                    </motion.div>
                 </div>
-                <div className='lg:w-7/12 relative'>
+                <motion.div 
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                transition={{duration:0.5, delay:0.9, ease:'easeInOut'}}
+                className='lg:w-7/12 relative'>
                     <button onClick={()=>{scroll()}} className=" absolute w-[25vw] mr-[-2px] lg:w-[7.5vw] right-0 bg-gradient-to-r from-bgpurple/0 to-bgpurple via-bgpurple/80 h-full flex items-center justify-end text-5xl">
                         <IoIosArrowForward />
                     </button>
@@ -100,10 +125,10 @@ const OurServices = () => {
                                         <h1 className="lg:w-[250px] w-[100px] text-center font-semibold lg:text-[29px] text-[15px]">{data.position}</h1>
                                     </div>
                                 </div>
-                                )
-                            })}
-                        </div>
+                            )
+                        })}
                     </div>
+                </motion.div>
             </div>
         </div>
         </div>

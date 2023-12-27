@@ -61,7 +61,7 @@ const Projects = () => {
             </div>
             {
                project.map((data , i)=>{return(
-                <div key={i} className=' transition-all duration-700 ease-in-out flex flex-col justify-center items-center'>
+                <div key={i} className=' transition-all duration-700 ease-in-out flex flex-col justify-center items-center w-11/12'>
                     <div className={(states[i][0] ? 'h-fit overflow-hidden' : 'lg:items-start') + ' transition-all ease-in-out duration-700 bg-[#F4EBFE] w-10/12 lg:w-8/12 flex flex-col lg:flex-row py-10 px-5 lg:p-16 gap-10 lg:gap-20 shadow-lg shadow-black/30 rounded-[23px] items-center lg:items-start' }>
                         <div className=' w-fit lg:w-2/12'>
                             <Image src={data.logo} alt='logo' className=' rounded-tl-[50px] rounded-[7px] border-r-8 border-b-8 border-[#EDB4FE]' />

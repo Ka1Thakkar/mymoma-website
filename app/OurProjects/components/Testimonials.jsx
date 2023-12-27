@@ -35,7 +35,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <div className={poppins.className + " min-h-screen bg-bgpink rounded-t-[35px] pl-5 lg:pl-10 xl:pl-40 pt-20 lg:pt-40"}>
+        <div className={poppins.className + " h-fit bg-bgpink rounded-t-[35px] pl-5 lg:pl-10 xl:pl-40 py-20 lg:py-40"}>
             <div className="pb-10">
                 <h1 className="lg:text-[47px] text-[40px] font-semibold">What Our Clients say about Us</h1>
                 <div className='h-[3px] w-[50%] lg:w-[50%] bg-bgpurple'></div>
