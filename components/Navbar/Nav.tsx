@@ -44,7 +44,7 @@ const Navbar = () => {
 
     useEffect(()=>{
         (function () {
-            var width = window.innerWidth;
+            const width = window.innerWidth;
             const pathname = window.location.pathname
             
 
@@ -59,11 +59,9 @@ const Navbar = () => {
             }
         
             window.addEventListener('resize', function () {
-                if (window.innerWidth <= 750) {
-                    window.location.reload()
+                if (window.innerWidth <= 750 && window.innerWidth !== width) {
                     setIsHam(false)
                 }else {
-                    window.location.reload()
                     setIsHam(true)
                 }
             });
