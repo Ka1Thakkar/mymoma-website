@@ -44,9 +44,9 @@ const OurClients = () => {
             <div className="bg-gradient-to-b from-[#653A8D] to-[#ECB4FE] p-1 rounded-[25px]">
                 <div className="bg-bglightpurple py-10 lg:py-20 2xl:px-40 lg:px-20 px-5 rounded-[25px]">
                     <motion.div 
-                    initial={{opacity:0}}
-                    whileInView={{opacity:1, y:-25}}
-                    transition={{duration:0.3, delay:0.5, ease:'easeInOut'}}
+                    initial={{opacity:0, y:25}}
+                    whileInView={{opacity:1, y:0}}
+                    transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
                     className=" flex flex-col items-center justify-center pb-10 lg:pb-20">
                         <h1 className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Clients</h1>
                         <div className="w-[50%] h-[3px] bg-[#653A8D]"></div>
@@ -56,9 +56,9 @@ const OurClients = () => {
                             const delay = (i*0.1 + 0.6)
                             return (
                                 <motion.div 
-                                initial={{opacity:0}}
-                                whileInView={{opacity:1, y:-25}}
-                                transition={{duration:0.3, delay:delay, ease:'easeInOut'}}
+                                initial={{opacity:0, y:25}}
+                                whileInView={{opacity:1, y:0}}
+                                transition={{duration:0.5, delay:delay, ease:'easeInOut'}}
                                 key={i} className='flex items-center w-full justify-center'>
                                     <Image src={data.logo} alt='company logo' />
                                 </motion.div>

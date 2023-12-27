@@ -23,8 +23,8 @@ const OurImpact = () => {
     return (
         <section className=" bg-bgwhite mt-[-5px] h-fit lg:px-20 2xl:px-40 w-full py-10 lg:py-40">
             <motion.div 
-            initial={{opacity:0}}
-            whileInView={{opacity:1, x:25}}
+            initial={{opacity:0,x:25}}
+            whileInView={{opacity:1,x:0}}
             transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
             className="px-5 pb-10">
                 <h1 className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Impact</h1>
@@ -57,10 +57,10 @@ const OurImpact = () => {
                     </div>
                 </div>
                 <motion.div 
-                initial={{opacity:0}}
-                whileInView={{opacity:1, x:-25}}
+                initial={{opacity:0, x:25}}
+                whileInView={{opacity:1, x:0}}
                 transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
-                className="lg:w-4/12 md:h-[60vh] lg:h-[100%]lg:rounded-[0px] lg:rounded-br-[127px] object-cover w-screen">
+                className="lg:w-4/12 md:h-[60vh] lg:h-[100%]lg:rounded-[0px] lg:rounded-br-[127px] object-cover w-[100vw]">
                     <Image src={impact} alt="impact" className="lg:rounded-[0px] lg:rounded-br-[127px] object-cover" />
                 </motion.div>
             </div>
