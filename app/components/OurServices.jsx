@@ -94,7 +94,7 @@ const OurServices = () => {
                             <Image alt="chart" src={chart} className="h-fit object-contain" />
                         </div>
                         <div className="w-4/12 text-[15px] lg:text-[18px]">
-                            Only 13% of WLGBTQIA+ entrepreneurs have the access to business resources
+                            Only 13% of WLGBTQIA+ entrepreneurs have access to professional business resources.
                         </div>
                     </motion.div>
                     <motion.div
@@ -102,7 +102,7 @@ const OurServices = () => {
                     whileInView={{opacity:1}}
                     transition={{duration:0.5, delay:0.8, ease:'easeInOut'}}>
                         <p className="lg:text-[18px] text-[15px]">
-                        We aim to bridge this gap by providing businesses with a “makeover” i.e. <span className="font-semibold">diverse, innovative, holistic and affordable business consultancy</span> to improve their performance and implement changes that optimize their process in order to achieve success.
+                        We aim to bridge this gap by providing businesses with a “makeover” i.e. <span className="font-semibold">diverse, innovative, holistic and affordable business consultancy</span> to optimize their process in order to achieve success.
                         </p>
                     </motion.div>
                 </div>

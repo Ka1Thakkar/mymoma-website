@@ -7,6 +7,10 @@ import Argha from '@/app/OurProjects/Assets/Argha.png'
 import Divya from '@/app/OurProjects/Assets/Divya.png'
 import Handy from '@/app/OurProjects/Assets/Handy.png'
 import UnMa from '@/app/OurProjects/Assets/UnMa.png'
+import Plantitude from '@/app/OurProjects/Assets/Plantitude.png'
+import Shakti from '@/app/OurProjects/Assets/Shakti.png'
+import Maakrit from '@/app/OurProjects/Assets/Maarkit.png'
+
 import { useState } from 'react';
 import { Poppins } from 'next/font/google';
 
@@ -43,6 +47,24 @@ const project = [
         description : "UnMa stands as India's inaugural University Mart, driven by AI, offering a unique shopping experience for the nation's youth. Catering to students, it's a student-centric online marketplace meeting essential needs affordably and efficiently.",
         deliverables : ["Branding", "Marketing", "Competitor Analysis", "Pricing Strategy", "User Experience Optimisation", "Product Customisation"]
     },
+    {
+        logo : Plantitude,
+        name: "Plantitude Essentials",
+        description : "Dr. Mrinalini Manohar leads Plantitute Essentials, an agritech startup with a mission to rejuvenate depleted soil and revolutionize agriculture. Focusing on environmentally sustainable and technologically advanced products, the company aims to transform the industry by introducing innovative solutions for sustainable farming practices.",
+        deliverables : ["Pitch Deck Creation", "Financial Projections", "Business model and marketing strategy consultancy", "Competitor Analysis"]
+    },
+    {
+        logo : Shakti,
+        name: "Shakti Wearables",
+        description : "Founded by Srishti Sharma, Shakti Wearable stands at the forefront of street-smart product innovation, addressing societal issues. With a strong commitment to women's safety, Shakti Wearable has introduced India’s first all-in-one women's safety bangle. Srishti, a social activist, combines technology and advocacy to empower women in safety-threatening situations.",
+        deliverables : ["Sales Strategy", "Strategizing and implementing marketing initiatives"]
+    },
+    {
+        logo : Maakrit,
+        name: "Maakrit",
+        description : "Maakrit, a homegrown organic confectionary brand, is the brainchild of Priya Jain and her mother-in-law. Their vision involves creating delightful treats made from 100% natural ingredients and packaged with eco-friendly materials. Maakrit strives to nourish both the body and soul while promoting a sustainable future through its commitment to organic and earth-friendly practices.",
+        deliverables : ["Expansion Strategy", "Pricing Strategy", "Competitor Analaysis"]
+    },
 ]
 
 const Projects = () => {
@@ -62,9 +84,9 @@ const Projects = () => {
             {
                project.map((data , i)=>{return(
                 <div key={i} className=' transition-all duration-700 ease-in-out flex flex-col justify-center items-center w-11/12'>
-                    <div className={(states[i][0] ? 'h-fit overflow-hidden' : 'lg:items-start') + ' transition-all ease-in-out duration-700 bg-[#F4EBFE] w-10/12 lg:w-8/12 flex flex-col lg:flex-row py-10 px-5 lg:p-16 gap-10 lg:gap-20 shadow-lg shadow-black/30 rounded-[23px] items-center lg:items-start' }>
-                        <div className=' w-fit lg:w-2/12'>
-                            <Image src={data.logo} alt='logo' className=' rounded-tl-[50px] rounded-[7px] border-r-8 border-b-8 border-[#EDB4FE]' />
+                    <div className={(states[i][0] ? 'h-fit overflow-hidden' : 'lg:items-start') + ' transition-all ease-in-out duration-700 bg-[#F4EBFE] w-11/12 xl:w-9/12 flex flex-col lg:flex-row py-10 px-5 lg:p-16 gap-10 lg:gap-20 shadow-lg shadow-black/30 rounded-[23px] items-center lg:items-start' }>
+                        <div className=' w-11/12 sm:w-9/12 md:w-8/12 lg:w-3/12'>
+                            <Image src={data.logo} alt='logo' style={{objectFit: 'fill'}} className=' rounded-tl-[50px] rounded-[7px] border-r-8 border-b-8 border-[#EDB4FE] lg:h-fit w-[100%] lg:w-11/12 bg-white ' />
                         </div>
                         <div className='flex flex-col gap-10 lg:w-8/12'>
                             <h1 className={'lg:text-[29px] text-[25px] text-[#653A8D] font-bold'}>

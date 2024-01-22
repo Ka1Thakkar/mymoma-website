@@ -11,19 +11,19 @@ import unlock from '../Assets/Unlock.png'
 const opportunities = [
     {
         image : minds,
-        text : "Contribute to projects that transform industries and mindsets."
+        text : "Contribute to projects that transform industries and mindsets"
     },
     {
         image : change,
-        text : "Drive change that empowers women and LGBTQIA+ entrepreneurs."
+        text : "Drive change that empowers women and LGBTQIA+ entrepreneurs"
     },
     {
         image : ideas,
-        text : "Collaborate with brilliant minds and mentors from diverse backgrounds."
+        text : "Collaborate with brilliant minds and mentors from diverse backgrounds"
     },
     {
         image : unlock,
-        text : "Unlock your potential through continuous learning and skill development."
+        text : "Unlock your potential through continuous learning and skill development"
     },
 ]
 

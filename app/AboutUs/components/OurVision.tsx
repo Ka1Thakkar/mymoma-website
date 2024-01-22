@@ -44,9 +44,7 @@ const OurVision = () => {
                             transition={{duration:0.5, delay:0.7, ease:'easeInOut'}}
                             className='bg-bgpurple/30 px-5 w-full rounded-tr-lg rounded-br-lg'>
                                 <p className='lg:text-[18px] text-[15px] py-5 lg:py-10 lg:text-left lg:pr-10'>
-                                <span className='font-bold italic'>Our vision is a world where every woman and member of the LGBTQIA+ community stands as a fearless entrepreneur, </span>
-                                their unique brilliance ignited, and their dreams amplified. 
-                                We envision breaking down all barriers to success, fostering a global network of empowered individuals, and creating a landscape where diversity and innovation flourish
+                                <span className='font-bold italic'>Our vision is a world where every woman and member of the LGBTQIA+ community stands as a fearless entrepreneur.</span> By helping them build and expand their businesses, overcoming the challenges of limited resources, we aspire to dismantle all barriers to success, cultivating a global network of empowered individuals. 
                                 </p>
                             </motion.div>
                         </motion.div>

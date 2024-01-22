@@ -18,7 +18,7 @@ import Hashim from '@/app/AboutUs/Assets/Hashim Chirag.png'
 import Stuti from '@/app/AboutUs/Assets/Stuti Garg.png'
 import Naman from '@/app/AboutUs/Assets/Naman Sehgal.png'
 import Rishika from '@/app/AboutUs/Assets/Rishika Tripathi.png'
-import Devvrat from '@/app/AboutUs/Assets/Vishwam Bagrodia.png'
+import Saumya from '@/app/AboutUs/Assets/Saumya.png'
 import Vishwam from '@/app/AboutUs/Assets/Vishwam Bagrodia.png'
 import Savyasachi from '@/app/AboutUs/Assets/Savyasachi Ganjoo.png'
 import Kavan from '@/app/AboutUs/Assets/Kavan Thakkar.png'
@@ -58,7 +58,7 @@ const team = [
     {
         name: "Aashna Lidder",
         position : "Head of Marketing & Branding",
-        College: "Shree Ram College of Commerce (SRCC)",
+        College: "Shri Ram College of Commerce (SRCC)",
         image: Aashna,
     },
     {
@@ -74,15 +74,21 @@ const team = [
         image: Anandi,
     },
     {
+        name: "Saumya Mahajan",
+        position : "Senior Associate",
+        College: "UCLA",
+        image: Saumya,
+    },
+    {
         name: "Pratyaksha Bisht",
         position : "Marketing Specialist",
-        College: "Shree Ram College of Commerce (SRCC)",
+        College: "Shri Ram College of Commerce (SRCC)",
         image: Pratyaksha,
     },
     {
         name: "Vidushi Shanker",
         position : "Marketing Specialist",
-        College: "Lady Shree Ram College (LSR)",
+        College: "Lady Shri Ram College (LSR)",
         image: Vidushi,
     },
     {
@@ -100,7 +106,7 @@ const team = [
     {
         name: "Aarav Sehrawat",
         position : "Senior Associate",
-        College: "Sri Venkateswara College",
+        College: "Shri Venkateswara College",
         image: Aarav,
     },
     {
@@ -130,7 +136,7 @@ const team = [
     {
         name: "Hashim Chirag",
         position : "Junior Associate",
-        College: "Sri Venkateswara College",
+        College: "Shri Venkateswara College",
         image: Hashim,
     },
     {
@@ -148,14 +154,8 @@ const team = [
     {
         name: "Rishika Tripathi",
         position : "Junior Associate",
-        College: "Lady Shree Ram College (LSR)",
+        College: "Lady Shri Ram College (LSR)",
         image: Rishika,
-    },
-    {
-        name: "Devvrat Vaid",
-        position : "Junior Associate",
-        College: "NMIMS ASMSOC",
-        image: Devvrat,
     },
     {
         name: "Savyasachi Ganjoo",

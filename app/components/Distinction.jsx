@@ -4,11 +4,11 @@ import {motion} from'framer-motion'
 const distinctions = [
     {
         distinct : "Our Diverse Team",
-        description : "Diverse team of passionate student consultants from Harvard, IITs ,SRCC,SSCBS, BITS Pilani, Ashoka, LSR, St. Stephens and many more."
+        description : "Diverse team of passionate student consultants from Harvard, UCLA, IITs, SRCC, SSCBS, BITS Pilani, Ashoka, LSR, St. Stephens and many more"
     },
     {
         distinct : "Industry Expert Advisors",
-        description : "Industry expert advisors from Boston Consulting Group, Bain and company, Dalberg, Accenture, and D. E. Shaw"
+        description : "Industry expert advisors from Boston Consulting Group, Bain and Company, McKinsey & Company, Dalberg, Accenture, and D. E. Shaw"
     },
     {
         distinct : "Holistic Problem-Solving",

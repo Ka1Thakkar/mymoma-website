@@ -26,7 +26,7 @@ const Connect = () => {
             <div className=" bg-bgpurple relative h-fit pt-5 rounded-t-[35px]">
                 <div className=" bg-bglightpurple w-full h-fit top-5 rounded-t-[35px] py-20 lg:px-40 px-5 flex flex-col gap-8 lg:gap-16">
                     <div className="">
-                        <h1 className="lg:text-[47px] text-[40px] font-semibold">Ready to Connect with our vision?</h1>
+                        <h1 className="lg:text-[47px] text-[40px] font-semibold">Ready to Connect with our Vision?</h1>
                         <p className="lg:text-[29px] text-[25px] pb-5">
                             Discover MyMoMa!
                         </p>

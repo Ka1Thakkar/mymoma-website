@@ -21,13 +21,13 @@ const OurMission = () => {
             whileInView={{opacity:1, y:0}}
             transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
             className=" lg:w-5/12 w-10/12 lg:text-[18px] text-15px text-justify">
-            Our mission is to provide unwavering support, education, and resources to women and the LGBTQAI+ community on their journey to entrepreneurial greatness.
+            Our mission is to provide unwavering support, education, and resources to women and the LGBTQIA+ community on their journey to entrepreneurial greatness.
             <br />
             <br />
             We commit to offering top-notch business consultancy services for free, fueling their growth, fostering inclusivity, and enabling them to create lasting impacts in their industries.
             <br />
             <br />
-            Our team comprises diverse consultants from India's premier institutions from various fields such as engineering, marketing, finance, design , uniting to provide comprehensive and holistic solutions for every business challenge. Through mentorship, tailored guidance, and a safe space for exploration, we strive to make every dream attainable, every vision a reality.
+            Our team comprises diverse consultants from India's premier institutions from various fields such as engineering, marketing, finance, design, uniting to provide comprehensive and holistic solutions for every business challenge. Through mentorship, tailored guidance, and a safe space for exploration, we strive to make every dream attainable, every vision a reality.
 
             </motion.p>
         </div>

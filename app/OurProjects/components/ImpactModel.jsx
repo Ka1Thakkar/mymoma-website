@@ -12,27 +12,27 @@ const model = [
     {
         color: "#ECB4FE",
         heading : "Getting to Know the Client",
-        content : "Understand the client's mission and needs."
+        content : "Understand the client's mission and needs"
     },
     {
         color: "#D09AE6",
         heading : "Identifying the Gaps and Constraints",
-        content : "Assess the client's resources and constraints."
+        content : "Assess the client's resources and constraints"
     },
     {
         color: "#AB79C7",
-        heading : "Getting to Know the Client",
-        content : "Collaborate, analyze, research, implement, and provide tailored solutions."
+        heading : "Analyze the Business Problems",
+        content : "Collaborate, analyze, research, and provide tailored solutions"
     },
     {
         color: "#8E5FAF",
         heading : "Implementation",
-        content : "Put the tailored solutions into action."
+        content : "Put the tailored solutions into action"
     },
     {
         color: "#75499B",
         heading : "Client Follow-Up",
-        content : "Evaluate solution effectiveness and gather client feedback."
+        content : "Evaluate solution effectiveness and gather client feedback"
     },
 ]
 
@@ -75,7 +75,7 @@ const ImpactModel = () => {
                     initial={{opacity:0, scale: 0.75}}
                     animate={{opacity:1, y:0, scale:1}}
                     transition={{duration:1, delay:0.3, ease:'easeInOut'}}
-                    className="p-0 w-10/12 lg:w-5/12">
+                    className="p-0 w-10/12 lg:w-3/12">
                         <Image src={illustration} alt="illustration" />
                     </motion.div>
                 </div>

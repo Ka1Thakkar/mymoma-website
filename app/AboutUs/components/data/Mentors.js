@@ -11,7 +11,7 @@ const mentors = [
     {
         name: "Tvisha Tuli",
         position : "Socho Abhi, MyMoMa and Candy Bar (Founder)",
-        achievements: "Ex- Bain & Company.",
+        achievements: "Ex-Bain & Company",
         image: Tvisha,
     },
     {
@@ -23,19 +23,19 @@ const mentors = [
     {
         name: "Vishudh Verma",
         position : "Bain and Company",
-        achievements: "Ex Grant Thornton Bharat LLP, NITI Aayog",
+        achievements: "Ex-Grant Thornton Bharat LLP & NITI Aayog",
         image: Vishudh,
     },
     {
         name: "Siddhi Khandelwal",
         position : "Associate BCG",
-        achievements: "Ex- NITI Aayog, Ministry of Education, Gol. Founding Member MyMoMa",
+        achievements: "Ex-NITI Aayog, Ministry of Education & Gol",
         image: Siddhi,
     },
     {
         name: "Pulkit Sehgal",
         position : "Associate BCG",
-        achievements: "Founder: Makes Sense. SSCBS'23",
+        achievements: "Makes Sense (Founder) SSCBS'23",
         image: Pulkit,
     },
     {
@@ -46,14 +46,14 @@ const mentors = [
     },
     {
         name: "Shubham Garg",
-        position : "Ex- McKinsey, P&G and ZS Consulting",
-        achievements: "IIM C'24 SRCC",
+        position : "Ex-McKinsey, P&G and ZS Consulting",
+        achievements: "IIM C'24 | SRCC'20",
         image: Shubham,
     },
     {
         name: "Pranjal Jain",
         position : "Management Consulting Associate, Accentenure",
-        achievements: "Ex- McKinsey. Makes Sense (Founder)",
+        achievements: "Ex-McKinsey, Makes Sense (Founder)",
         image: Pranjal,
     },
 ]

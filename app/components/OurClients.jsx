@@ -9,6 +9,8 @@ import Handy from '../assets/Clients/Handy.png'
 import Shakti from '../assets/Clients/Shakti.png'
 import Plantitude from '../assets/Clients/Plantitude.png'
 import Argha from '../assets/Clients/Argham.png'
+import Maakrit from '../assets/Clients/Maarkit.png'
+
 import Image from 'next/image'
 
 const clients = [
@@ -35,6 +37,9 @@ const clients = [
     },
     {
         logo : Plantitude,
+    },
+    {
+        logo : Maakrit,
     },
 ]
 

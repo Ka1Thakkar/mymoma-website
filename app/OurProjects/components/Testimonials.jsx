@@ -23,7 +23,7 @@ const testimonials = [
     },
     {
         review : " Hello Team MyMoMa, Thank you so much for your business consulting session. Your session gave me clarity on how to implement my business idea, next steps to be taken and make it a reality. Your wholehearted dedication in guiding me was commendable.It was clearly visible from the final document that you girls searched deeply on each and every point I mentioned in our first meeting. It was a value creating session for me as you not only guided me but also instilled in me the confidence that is required to start any business. I will definitely recommend others to use your services.",
-        name : "Divya Grag",
+        name : "Divya Garg",
         position : "Founder, Divya",
     },
     {
