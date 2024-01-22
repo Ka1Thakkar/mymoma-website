@@ -18,7 +18,7 @@ const navItems = [
       href: "/",
     },
     {
-      title: "About US",
+      title: "About Us",
       href: "/AboutUs",
     },
     {

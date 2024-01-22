@@ -12,16 +12,6 @@ const testimonials = [
         position : "Founder, Yogam Pottery",
     },
     {
-        review : "I really loved their work and the effort they have put to make the presentation so if you want any consultancy then they are the one to be contacted!",
-        name:"Argha Naskar",
-        position : "Founder, Argha's Chocolate Creations",
-    },
-    {
-        review : "Team MyMoMa is doing a fantastic job and I would surely recommend it to my friends and family. The team is extremely dynamic and confident. It is a lovely experience seeing children of the same age as mine doing such a fantastic job. I hope they'll help lots of women entrepreneurs and help them break the bars.",
-        name : "Anamika Sachdeva",
-        position : "Founder, Handy Rasoi",
-    },
-    {
         review : " Hello Team MyMoMa, Thank you so much for your business consulting session. Your session gave me clarity on how to implement my business idea, next steps to be taken and make it a reality. Your wholehearted dedication in guiding me was commendable.It was clearly visible from the final document that you girls searched deeply on each and every point I mentioned in our first meeting. It was a value creating session for me as you not only guided me but also instilled in me the confidence that is required to start any business. I will definitely recommend others to use your services.",
         name : "Divya Garg",
         position : "Founder, Divya",
@@ -30,6 +20,16 @@ const testimonials = [
         review : "Thank you so much team for embellishing our business through their consultation using which we were able to resolve problems. They not only provided effective solutions but also completed the project under the given deadline. Overall, we are extremely pleased by their service.We thank MyMoMa for their extensive research and analysis critical for our nascent phase of marketing and branding. It is truly amazing to see women empowering each other!",
         name : "Samridhi Shoor",
         position : "Chief Executive Officer, UnMa",
+    },
+    {
+        review : "I really loved their work and the effort they have put to make the presentation so if you want any consultancy then they are the one to be contacted!",
+        name:"Argha Naskar",
+        position : "Founder, Argha's Chocolate Creations",
+    },
+    {
+        review : "Team MyMoMa is doing a fantastic job and I would surely recommend it to my friends and family. The team is extremely dynamic and confident. It is a lovely experience seeing children of the same age as mine doing such a fantastic job. I hope they'll help lots of women entrepreneurs and help them break the bars.",
+        name : "Anamika Sachdeva",
+        position : "Founder, Handy Rasoi",
     },
 ]
 
