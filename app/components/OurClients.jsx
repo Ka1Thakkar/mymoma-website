@@ -29,9 +29,9 @@ const clients = [
     {
         logo : Argha,
     },
-    {
-        logo : Fermi,
-    },
+    // {
+    //     logo : Fermi,
+    // },
     {
         logo : Shakti,
     },
