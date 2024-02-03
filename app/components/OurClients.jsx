@@ -51,6 +51,7 @@ const OurClients = () => {
                     <motion.div 
                     initial={{opacity:0, y:25}}
                     whileInView={{opacity:1, y:0}}
+                    viewport={{once: true}}
                     transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
                     className=" flex flex-col items-center justify-center pb-10 lg:pb-20">
                         <h1 className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Clients</h1>
@@ -63,6 +64,7 @@ const OurClients = () => {
                                 <motion.div 
                                 initial={{opacity:0, y:25}}
                                 whileInView={{opacity:1, y:0}}
+                                viewport={{once: true}}
                                 transition={{duration:0.5, delay:delay, ease:'easeInOut'}}
                                 key={i} className='flex items-center w-full justify-center'>
                                     <Image src={data.logo} alt='company logo' />

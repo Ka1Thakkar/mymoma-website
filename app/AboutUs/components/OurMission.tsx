@@ -11,6 +11,7 @@ const OurMission = () => {
             <motion.div 
             initial={{opacity:0, y:-25}}
             whileInView={{opacity:1, y:0}}
+            viewport={{once:true}}
             transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
             className="flex flex-col items-center">
                 <h1 className="lg:text-[47px] text-[40px] font-semibold">Our Mission</h1>
@@ -19,6 +20,7 @@ const OurMission = () => {
             <motion.p 
             initial={{opacity:0, y:-25}}
             whileInView={{opacity:1, y:0}}
+            viewport={{once: true}}
             transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
             className=" lg:w-5/12 w-10/12 lg:text-[18px] text-15px text-justify">
             Our mission is to provide unwavering support, education, and resources to women and the LGBTQIA+ community on their journey to entrepreneurial greatness.

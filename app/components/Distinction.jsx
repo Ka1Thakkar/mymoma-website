@@ -23,12 +23,14 @@ const Distinction = () => {
                 <motion.div 
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
+                viewport={{once: true}}
                 transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
                 className=" bg-gradient-to-t from-[#653A8D] to-[#EDB4FE] p-2 rounded-[25px]">
                     <div className="bg-bglightpurple py-10 lg:py-20 lg:px-20 px-5 2xl:px-40 rounded-[25px] flex flex-col items-center">
                         <motion.div 
                         initial={{opacity:0}}
                         whileInView={{opacity:1}}
+                        viewport={{once: true}}
                         transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
                         className="lg:pb-20 pb-10 flex flex-col items-center">
                             <h1 className="lg:text-[47px] text-[40px] font-semibold pb-5 text-center">
@@ -39,6 +41,7 @@ const Distinction = () => {
                         <motion.div 
                         initial={{opacity:0}}
                         whileInView={{opacity:1}}
+                        viewport={{once: true}}
                         transition={{duration:0.5, delay:0.7, ease:'easeInOut'}}
                         className="flex flex-col gap-10 text-center lg:text-left">
                             {distinctions.map((data,i) => {
@@ -47,6 +50,7 @@ const Distinction = () => {
                                     <motion.div 
                                     initial={{opacity:0, y:-10}}
                                     whileInView={{opacity:1, y:0}}
+                                    viewport={{once: true}}
                                     transition={{duration:0.5, delay:delay, ease:'easeInOut'}}
                                     key={i} className="flex flex-col lg:flex-row justify-between gap-5">
                                         <h1 className="font-semibold text-[25px] lg:text-[29px] lg:w-4/12">

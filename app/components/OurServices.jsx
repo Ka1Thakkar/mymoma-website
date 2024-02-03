@@ -70,16 +70,19 @@ const OurServices = () => {
                 <motion.p 
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
+                viewport={{once: true}}
                 transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
                 className="lg:text-[18px] text-[15px]">Your Problems</motion.p>
                 <motion.h1 
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
+                viewport={{once: true}}
                 transition={{duration:0.5, delay:0.5, ease:'easeInOut'}}
                 className="lg:text-[47px] text-[40px] font-semibold pb-5">Our Services</motion.h1>
                 <motion.div 
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
+                viewport={{once: true}}
                 transition={{duration:0.5, delay:0.6, ease:'easeInOut'}}
                 className="w-[30vw] h-[3px] bg-bgwhite"></motion.div>
             </div>
@@ -88,6 +91,7 @@ const OurServices = () => {
                     <motion.div 
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
+                    viewport={{once: true}}
                     transition={{duration:0.5, delay:0.7, ease:'easeInOut'}}
                     className="w-fit flex items-center gap-5">
                         <div className="items-center justify-center flex text-[47px] font-semibold w-5/12 h-full">
@@ -100,6 +104,7 @@ const OurServices = () => {
                     <motion.div
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
+                    viewport={{once: true}}
                     transition={{duration:0.5, delay:0.8, ease:'easeInOut'}}>
                         <p className="lg:text-[18px] text-[15px]">
                         We aim to bridge this gap by providing businesses with a “makeover” i.e. <span className="font-semibold">diverse, innovative, holistic and affordable business consultancy</span> to optimize their process in order to achieve success.
@@ -109,6 +114,7 @@ const OurServices = () => {
                 <motion.div 
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
+                viewport={{once: true}}
                 transition={{duration:0.5, delay:0.9, ease:'easeInOut'}}
                 className='lg:w-7/12 relative'>
                     <button onClick={()=>{scroll()}} className=" absolute w-[25vw] mr-[-2px] lg:w-[7.5vw] right-0 bg-gradient-to-r from-bgpurple/0 to-bgpurple via-bgpurple/80 h-full flex items-center justify-end text-5xl">

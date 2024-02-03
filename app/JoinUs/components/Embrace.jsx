@@ -33,6 +33,7 @@ const Embrace = () => {
             <motion.div 
             initial={{opacity:0, y:25}}
             whileInView={{opacity:1, y:0}}
+            viewport={{once: true}}
             transition={{duration:0.5, ease:'easeInOut'}}
             className="flex flex-col items-center">
                 <h1 className="lg:text-[47px] text-[40px] font-semibold text-center">Embrace Opportunities</h1>
@@ -44,6 +45,7 @@ const Embrace = () => {
             <motion.div 
             initial={{opacity:0, y:25}}
             whileInView={{opacity:1, y:0}}
+            viewport={{once: true}}
             transition={{duration:0.5, delay:0.2, ease:'easeInOut'}}
             className='grid grid-cols-1 md:grid-cols-2 lg:px-20 2xl:px-80 gap-x-10 gap-y-10 pt-10'>
                 {opportunities.map((opportunity, i)=>{
