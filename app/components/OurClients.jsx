@@ -10,6 +10,8 @@ import Shakti from '../assets/Clients/Shakti.png'
 import Plantitude from '../assets/Clients/Plantitude.png'
 import Argha from '../assets/Clients/Argham.png'
 import Maakrit from '../assets/Clients/Maarkit.png'
+import Carer from '@/app/assets/Clients/Carer.jpeg'
+import Krifin from '@/app/assets/Clients/Krifin.jpeg'
 
 import Image from 'next/image'
 
@@ -29,9 +31,6 @@ const clients = [
     {
         logo : Argha,
     },
-    // {
-    //     logo : Fermi,
-    // },
     {
         logo : Shakti,
     },
@@ -40,6 +39,12 @@ const clients = [
     },
     {
         logo : Maakrit,
+    },
+    {
+        logo : Carer,
+    },
+    {
+        logo : Krifin,
     },
 ]
 
@@ -67,7 +72,7 @@ const OurClients = () => {
                                 viewport={{once: true}}
                                 transition={{duration:0.5, delay:delay, ease:'easeInOut'}}
                                 key={i} className='flex items-center w-full justify-center'>
-                                    <Image src={data.logo} alt='company logo' />
+                                    <Image src={data.logo} alt='company logo' className='rounded-lg' />
                                 </motion.div>
                             )
                         })}
