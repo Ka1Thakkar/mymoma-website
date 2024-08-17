@@ -6,6 +6,7 @@ import Jaanvi from "@/app/AboutUs/Assets/Jaanvi.png";
 import Kavan from "@/app/AboutUs/Assets/Kavan Thakkar.png";
 import Khushali from "@/app/AboutUs/Assets/Khushali Malhotra.png";
 import Kirtana from "@/app/AboutUs/Assets/Kirtana Chadha.png";
+import Madhav from "@/app/AboutUs/Assets/Madhavchawlaphoto.png";
 import Meghal from "@/app/AboutUs/Assets/Meghal Jain.png";
 import Neetya from "@/app/AboutUs/Assets/Neetya Batra.png";
 import Pratyaksha from "@/app/AboutUs/Assets/Pratyaksha Bishta.png";
@@ -135,6 +136,13 @@ const team = [
     College: "Lady Shri Ram College (LSR)",
     image: Rishika,
   },
+
+  {
+    name: "Madhav Chawla",
+    position: "Junior Associate",
+    College: "Hansraj College",
+    image: Madhav,
+  },
   {
     name: "Neetya Batra",
     position: "Junior Associate",
@@ -162,4 +170,3 @@ const team = [
 ];
 
 export default team;
-
