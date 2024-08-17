@@ -8,6 +8,7 @@ import Khushali from "@/app/AboutUs/Assets/Khushali Malhotra.png";
 import Kirtana from "@/app/AboutUs/Assets/Kirtana Chadha.png";
 import Madhav from "@/app/AboutUs/Assets/Madhavchawlaphoto.png";
 import Meghal from "@/app/AboutUs/Assets/Meghal Jain.png";
+import Muditt from "@/app/AboutUs/Assets/Muditt.png";
 import Neetya from "@/app/AboutUs/Assets/Neetya Batra.png";
 import Pratyaksha from "@/app/AboutUs/Assets/Pratyaksha Bishta.png";
 import Rishika from "@/app/AboutUs/Assets/Rishika Tripathi.png";
@@ -34,6 +35,12 @@ const team = [
   //     College: "Shaheed Sukhdev College of Business Studies (SSCBS)",
   //     image: Divyanshi,
   // },
+  {
+    name: "Muditt Khuarana",
+    position: "Head of Finance",
+    College: "Massachusetts Institute of Technology",
+    image: Muditt,
+  },
   {
     name: "Vishwam Bagrodia",
     position: "Head of Research & Strategy",
