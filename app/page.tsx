@@ -1,21 +1,24 @@
-'use client'
-import Footer from '@/components/Footer/Footer'
-import Image from 'next/image'
-import Hero from './components/Hero'
-import WhoWe from './components/WhoWe'
-import OurServices from './components/OurServices'
-import Distinction from './components/Distinction'
-import OurImpact from './components/OurImpact'
-import OurClients from './components/OurClients'
+"use client";
+import Footer from "@/components/Footer/Footer";
+import Image from "next/image";
+import Hero from "./components/Hero";
+import WhoWe from "./components/WhoWe";
+import OurServices from "./components/OurServices";
+import Distinction from "./components/Distinction";
+import OurImpact from "./components/OurImpact";
+import OurClients from "./components/OurClients";
 
-import { Poppins } from 'next/font/google';
-import { useEffect, useLayoutEffect } from 'react'
-import { usePathname } from 'next/navigation'
-const poppins = Poppins({weight:["100",'200','300','400','500','600','700','800','900'],subsets:['latin']})
+import { Poppins } from "next/font/google";
+import { useEffect, useLayoutEffect } from "react";
+import { usePathname } from "next/navigation";
+const poppins = Poppins({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
-    <div className={poppins.className + ' bg-bgpurple scroll-smooth'}>
+    <div className={poppins.className + " bg-bgpurple scroll-smooth"}>
       <Hero />
       <WhoWe />
       <OurServices />
@@ -24,5 +27,5 @@ export default function Home() {
       <OurClients />
       <Footer />
     </div>
-  )
+  );
 }

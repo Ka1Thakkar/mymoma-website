@@ -15,6 +15,11 @@ import Rishika from "@/app/AboutUs/Assets/Rishika Tripathi.png";
 import Roohbani from "@/app/AboutUs/Assets/Roohbani Kaur.png";
 import Vidushi from "@/app/AboutUs/Assets/Vidushi Shanker.png";
 import Vishwam from "@/app/AboutUs/Assets/Vishwam Bagrodia.png";
+import Roshan from "@/app/AboutUs/Assets/Roshan Rajesh.png";
+import Sakshi from "@/app/AboutUs/Assets/Sakshi.png";
+import Jalaj from "@/app/AboutUs/Assets/Jalaj.png";
+import Karunya from "@/app/AboutUs/Assets/Karunya.png";
+import Ishima from "@/app/AboutUs/Assets/Ishima.png";
 
 const team = [
   {
@@ -29,12 +34,6 @@ const team = [
     College: "Harvard University",
     image: Aadit,
   },
-  // {
-  //     name: "Divyanshi Shukla",
-  //     position : "Head of Finance",
-  //     College: "Shaheed Sukhdev College of Business Studies (SSCBS)",
-  //     image: Divyanshi,
-  // },
   {
     name: "Muditt Khuarana",
     position: "Head of Finance",
@@ -59,36 +58,18 @@ const team = [
     College: "Shri Ram College of Commerce (SRCC)",
     image: Aashna,
   },
-  {
-    name: "Vidushi Shanker",
-    position: "Head of Business Development",
-    College: "Lady Shri Ram College (LSR)",
-    image: Vidushi,
-  },
+  // {
+  //   name: "Vidushi Shanker",
+  //   position: "Head of Business Development",
+  //   College: "Lady Shri Ram College (LSR)",
+  //   image: Vidushi,
+  // },
   {
     name: "Kirtana Chadha",
     position: "Head of Operations",
     College: "Shaheed Sukhdev College of Business Studies (SSCBS)",
     image: Kirtana,
   },
-  // {
-  //     name: "Aditi Inamdar",
-  //     position : "Head of Business Development",
-  //     College: "Ashoka University",
-  //     image: Aditi,
-  // },
-  // {
-  //     name: "Anandi Singh",
-  //     position : "Head of Design",
-  //     College: "Delhi Technological University (DTU)",
-  //     image: Anandi,
-  // },
-  // {
-  //     name: "Saumya Mahajan",
-  //     position : "Senior Associate",
-  //     College: "UCLA",
-  //     image: Saumya,
-  // },
   {
     name: "Pratyaksha Bisht",
     position: "Senior Associate",
@@ -101,18 +82,6 @@ const team = [
     College: "Gargi College",
     image: Khushali,
   },
-  // {
-  //   name: "Aarav Sehrawat",
-  //   position: "Senior Associate",
-  //   College: "Shri Venkateswara College",
-  //   image: Aarav,
-  // },
-  // {
-  //   name: "Saksham Sandhu",
-  //   position: "Senior Associate",
-  //   College: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
-  //   image: Saksham,
-  // },
   {
     name: "Roohbani Kaur",
     position: "Senior Associate",
@@ -125,18 +94,6 @@ const team = [
     College: "Shri Venkateswara College",
     image: Hashim,
   },
-  // {
-  //   name: "Stuti Garg",
-  //   position: "Junior Associate",
-  //   College: "Gargi College",
-  //   image: Stuti,
-  // },
-  // {
-  //   name: "Naman Sehgal",
-  //   position: "Junior Associate",
-  //   College: "Sri Guru Gobind Singh College of Commerce (SGGSCC)",
-  //   image: Naman,
-  // },
   {
     name: "Rishika Tripathi",
     position: "Senior Associate",
@@ -150,24 +107,48 @@ const team = [
     College: "Hansraj College",
     image: Madhav,
   },
-  {
-    name: "Neetya Batra",
-    position: "Junior Associate",
-    College: "Ashoka University",
-    image: Neetya,
-  },
+  // {
+  //   name: "Neetya Batra",
+  //   position: "Junior Associate",
+  //   College: "Ashoka University",
+  //   image: Neetya,
+  // },
   {
     name: "Jaanvi Sethi",
     position: "Junior Associate",
     College: "Gargi College",
     image: Jaanvi,
   },
-  // {
-  //   name: "Savyasachi Ganjoo",
-  //   position: "Graphic Designer",
-  //   College: "Delhi Technological University (DTU)",
-  //   image: Savyasachi,
-  // },
+  {
+    name: "Roshan Rajesh",
+    position: "Junior Associate",
+    College: "Christ University",
+    image: Roshan,
+  },
+  {
+    name: "Sakshi",
+    position: "Junior Associate",
+    College: "Lady Shri Ram College for Women",
+    image: Sakshi,
+  },
+  {
+    name: "Jalaj Kareer",
+    position: "Junior Associate",
+    College: "SRCC",
+    image: Jalaj,
+  },
+  {
+    name: "Karunya Singh Bisht",
+    position: "Junior Associate",
+    College: "Ashoka University",
+    image: Karunya,
+  },
+  {
+    name: "Ishima",
+    position: "Junior Associate",
+    College: "Gargi College",
+    image: Ishima,
+  },
   {
     name: "Kavan Thakkar",
     position: "Senior Tech Specialist",
