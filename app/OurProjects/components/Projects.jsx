@@ -10,7 +10,6 @@ import UnMa from "@/app/OurProjects/Assets/UnMa.png";
 import Plantitude from "@/app/OurProjects/Assets/Plantitude.png";
 import Shakti from "@/app/OurProjects/Assets/Shakti.png";
 import Maakrit from "@/app/OurProjects/Assets/Maarkit.png";
-import Krifin from "@/app/OurProjects/Assets/Krifin.png";
 import Carer from "@/app/OurProjects/Assets/Carer.png";
 
 import { useState } from "react";
@@ -31,17 +30,6 @@ const project = [
       "Primary and secondary research on available financial aid options for cancer patients",
       "Creation of a comprehensive Support Handbook on financial aid",
       "Identification and establishment of partnerships with relevant stakeholders",
-    ],
-  },
-  {
-    logo: Krifin,
-    name: "Krifin",
-    description:
-      "Samridhi Soor is the co-founder & CTO of Krifin, an impact investment and carbon credit firm that tackles the fragmentation hindering global climate action through its innovative Energy Derivative Exchange. Built on blockchain technology, it fosters a secure and transparent ecosystem for trading and delivering a diverse range of environmental commodities. From co-investment in green power trading to carbon credits to sustainable rural infrastructure projects. It gives improved real time market access, transparent price discovery and traceable transactions.",
-    deliverables: [
-      "Company Valuation through financial modelling",
-      "Start-up Comparable Analysis",
-      "Comprehensive Competitor Analysis",
     ],
   },
   {
@@ -242,4 +230,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
