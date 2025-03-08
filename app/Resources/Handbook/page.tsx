@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 const About = () => {
   const handleDownload = () => {
-    const pdfUrl = "/handbook.pdf"; // Ensure the file is in the 'public' folder
+    const pdfUrl = "/From_StartUp_to_ScaleUp.pdf"; // Ensure the file is in the 'public' folder
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "From_StartUp_to_ScaleUp.pdf"; // Change file name if needed
